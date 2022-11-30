@@ -13,7 +13,7 @@ console.log(frase);
 */
 
 // Declare uma variável contendo uma string
-var nome = "Daniela"
+var nome1 = "Daniela"
 
 // Declare uma variável contendo um número dentro de uma string
 var ano = "2022"
@@ -23,11 +23,11 @@ var idade = 22;
 
 // Declare duas variáveis, uma com seu nome
 // e outra com seu sobrenome e some as mesmas
-var nome = "Guilherme ",
+var nome2 = "Guilherme",
     sobrenome = "Santos";
-    nomeCompleto = nome + sobrenome;
+    nomeCompleto = `${nome2} ${sobrenome}`;
 
-    // Coloque a seguinte frase em uma variável: It's time
+// Coloque a seguinte frase em uma variável: It's time
 console.log(`It's time to love ${nomeCompleto}`)
 
 // Verifique o tipo da variável que contém o seu nome
