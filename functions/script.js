@@ -33,9 +33,9 @@ function nomeCompleto(nome, sobrenome) {
 function parOuImpar(numero){
   var modulo = numero % 2;
   if (modulo == 0){
-    return true;
+    return "Par";
   } else {
-    return false;
+    return "Impar";
   } 
 }
 
@@ -49,13 +49,16 @@ function tipoDeDado(dado){
 // addEventListener é uma função nativa do JavaScript
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 // utilize essa função para mostrar no console o seu nome completo
-// quando o evento 'scroll' ocorrer.
-
+// quando o evento 'click' ocorrer.
+addEventListener('click', function() {
+  console.log("Guilherme Santos")
+})
 
 
 // Corrija o erro abaixo
-/*function precisoVisitar(paisesVisitados) {
-  var totalPaises = 193;
+var totalPaises = 193;
+
+function precisoVisitar(paisesVisitados) {
   return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
 }
 function jaVisitei(paisesVisitados) {
@@ -63,4 +66,3 @@ function jaVisitei(paisesVisitados) {
 }
 precisoVisitar(20);
 jaVisitei(20);
-*/
